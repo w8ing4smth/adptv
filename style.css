@@ -1,0 +1,44 @@
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 10px 20px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+}
+
+.header-link {
+    font-size: 40px; 
+    font-weight: 900;
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.maindiv {
+    height: 500px;
+    width: 500px;
+    background-color: pink;
+    margin-top: 25px;
+    padding: 20px;
+}
+
+.info {
+    font-size: 30px; 
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+
